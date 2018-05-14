@@ -1,0 +1,900 @@
+body
+{
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.lpadding
+{
+    padding-left: 0;
+}
+.rpadding
+{
+    padding-right: 0;
+}
+
+.mb0
+{
+	margin-bottom:0 !important;
+}
+
+header
+{
+	background:#4788f2;
+	color:#fff;
+	padding:0;
+}
+
+header.navbar
+{
+	margin-bottom:0;
+	min-height:auto;
+}
+
+.navbar-header img {
+    margin-top: 8px;
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+ul.nav.navbar-nav.navbar-right li a:hover, 
+ul.nav.navbar-nav.navbar-right li a:focus
+{
+	background:none;
+}
+
+ul.nav.navbar-nav.navbar-right li ul.dropdown-menu li a
+{
+	color:#000;
+}
+
+li.social-link {
+    margin: 0;
+}
+
+ul.nav.navbar-nav.nav-left {
+    margin-left: 20px;
+    border-left: 1px solid #fff;
+	margin-top:8px
+}
+
+ul.nav.navbar-nav.nav-left li {
+    margin-left: 15px;
+}
+
+ul.nav.navbar-nav.nav-left li a
+{
+	background:#fff;
+	border-radius:3px;
+	padding:5px 26px;
+}
+
+ul.nav.navbar-nav.nav-left li span {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+ul.nav.navbar-nav.nav-left li ul.dropdown-menu {
+    border-radius: 3px;
+    /* padding: 0; */
+    min-width: 120px;
+    top: 35px;
+    max-width: 250px;
+}
+
+ul.nav.navbar-nav.nav-left li ul.dropdown-menu li {
+    margin-left: 0;
+}
+
+ul.nav.navbar-nav.nav-left li ul.dropdown-menu li a {
+    padding: 3px 20px;
+	color: #4d4d4d;
+	font-size:14px;
+}
+
+ul.nav.navbar-nav.nav-left li ul.dropdown-menu li a:hover
+{
+	background-color: #f5f5f5;
+}
+
+header .navbar
+{
+	margin-bottom:0;
+}
+
+header .navbar-header .navbar-toggle
+{
+    background-color: #336de6;
+    border:1px solid #fff;
+}
+
+header .navbar-header .navbar-toggle .icon-bar
+{
+    background-color: #fff;
+}
+
+.heading h2
+{
+	font-size:34px;
+	font-weight:bold;
+	color:#000;
+	margin-top:0;
+	margin-bottom:10px;
+}
+
+.heading p
+{
+	font-size:24px;
+	color:#000;
+	margin-top:0;
+	margin-bottom:10px;
+}
+
+
+/* Club Banner Bg Css */
+
+.bar-banner-bg {
+    background: url('../img/bar-banner-bg.png') no-repeat center center;
+    position: relative;
+	padding:67px 0;
+}
+
+.heading-text h1
+{
+	font-size:50px;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:12px;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.28);
+}
+
+.heading-text p
+{
+	font-size:28px;
+	font-weight:600;
+	color:#fff;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.28);
+}
+
+.search-bar-form 
+{
+    margin-top: 46px;
+}
+
+.search-bar-form .form-group .city, 
+.search-bar-form .form-group .crowd-type
+{
+	width:352px;
+	background:#fff;
+	height:88px;
+	padding:30px 10px 30px 30px;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.28);
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.28);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.28);
+	border-radius:4px;
+	transition: 0.3s;
+	position:relative;
+}
+
+.search-bar-form .form-group
+{
+	margin-right:10px;
+}
+
+.form-group h2
+{
+	margin:2px;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.search-bar-form .form-group .city img, 
+.search-bar-form .form-group .crowd-type img
+{
+	position:absolute;
+	left:20px;
+	top:20px;
+}
+
+.search-bar-form .form-group .city select, 
+.search-bar-form .form-group .crowd-type select
+{
+	width:100%;
+	border-radius:0;
+	border:0 none;
+	box-shadow:none;
+	font-size:20px;
+	font-weight:bold;
+	padding:0 0 0 55px;
+	transition: 0.3s;
+	color:rgba(0,0,0,0.54);
+}
+
+.search-bar-form .form-group .city select:focus, 
+.search-bar-form .form-group .crowd-type select:focus
+{
+	outline:none;
+}
+
+.search-bar-form .form-group .clubs, 
+.search-bar-form .form-group .lounge, 
+.search-bar-form .form-group .bars
+{
+	background:#fff;
+	cursor:pointer;
+	height:88px;
+	padding:30px;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.28);
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.28);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.28);
+	border-radius:4px;
+	transition: 0.3s;
+	position:relative;
+	color:rgba(0,0,0,0.54);
+}
+
+.search-bar-form .form-group .clubs i, 
+.search-bar-form .form-group .lounge i, 
+.search-bar-form .form-group .bars i
+{
+	position:absolute;
+	right:1px;
+	top:1px;
+	color:#fff;
+}
+
+.search-bar-form .form-group .clubs.active, 
+.search-bar-form .form-group .lounge.active, 
+.search-bar-form .form-group .bars.active
+{
+	color:#424242;
+	border:4px solid #4788f2;
+}
+
+.search-bar-form .form-group .clubs.active:before, 
+.search-bar-form .form-group .lounge.active:before, 
+.search-bar-form .form-group .bars.active:before
+{
+	content: "";
+    display: inline-block;
+	position:absolute;
+	top:0;
+	right:0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 30px 30px 0;
+    border-color: transparent #4788f2 transparent transparent;
+}
+
+.search-btn {
+    width: 352px;
+    margin: 0 auto;
+    background: #4788f2;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.28);
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+}
+
+.search-btn:hover
+{
+	box-shadow:0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow:0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow:0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+}
+
+
+.search-btn a {
+    color: #fff;
+    font-size: 24px;
+	display:block;
+	padding: 20px;
+}
+
+.search-btn a:hover
+{
+	color:#fff;
+}
+
+
+/* Discover Nightlife Section Css */
+
+.discover-nightlife
+{
+	padding:60px 0;
+}
+
+.city-box-container
+{
+	margin-top:30px;
+}
+
+.width-240-170
+{
+	width:100%;
+	height:170px;
+	background:#000;
+}
+
+.width-440-360
+{
+	width:100%;
+	height:360px;
+	background:#000;
+}
+
+.city-box
+{
+	display:table;
+	margin-bottom:20px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+}
+
+.city-box:hover
+{
+	box-shadow:0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow:0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow:0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+}
+
+.city-box .city-box-content:hover h1 {
+    opacity: 1;
+    visibility: visible;
+    bottom: 46%;
+}
+
+.city-box .city-box-content h1{
+    z-index: 12;
+    position: absolute;
+    right: 20px;
+    left: 20px;
+    bottom: 0px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    font-size: 28px;
+    font-weight: 600;
+	margin:0;
+    visibility: hidden;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+.city-box-bg
+{
+	position:relative;
+	background:url('../img/city-box-bg.png') center center;
+}
+
+.city-box-bg-2
+{
+	position:relative;
+	background:url('../img/city-box-bg2.png') center center;
+}
+
+
+.city-box .city-box-content
+{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+
+
+/* Get App Css */
+
+.get-app
+{
+	background: url('../img/get-app-bg.png') no-repeat 100%/cover;
+    position: relative;
+	padding:67px 0;
+}
+
+.get-app-content
+{
+	margin-top:40px;
+}
+
+.get-app-content h1
+{
+	margin-bottom:18px;
+}
+
+.get-app-content p
+{
+	margin-bottom:40px;
+}
+
+.get-app-content h1, .get-app-content p
+{
+	color:#fff;
+}
+
+.get-app-content ul
+{
+	margin-bottom:0;
+}
+
+
+
+
+/* Popular Club Css */
+
+.popular-club
+{
+	padding:67px 0 140px;;
+}
+
+.popular-club .responsive
+{
+	margin-top:30px;
+	overflow:hidden;
+}
+
+.popular-club .responsive a.slider-img
+{
+	text-decoration:none;
+	color:#fff;
+}
+
+.popular-club .responsive .slider-img
+{
+	height:260px;
+	transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	display:block;
+	background:url('../img/slider-bg.png') no-repeat 100%/cover;
+	position:relative;
+}
+
+.popular-club .responsive .slider-img h2
+{
+	position:absolute;
+	left:20px;
+	bottom:15px;
+	font-size:22px;
+	text-transform:uppercase;
+}
+
+.popular-club .responsive .slider-img h3
+{
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	font-size:12px;
+}
+
+.popular-club .responsive .slider-img h3 i
+{
+	padding-right:5px;
+}
+
+.slick-next
+{
+	right:10px !Important;
+}
+
+.slick-prev
+{
+	left:10px !Important;
+	z-index:10;
+}
+
+.btn-view-more
+{
+	background:#4788f2;
+	color:#fff;
+	font-size:18px;
+	width:400px;
+	border-radius:4px;
+	padding:15px;
+	text-decoration:none;
+	margin-top:20px;
+	transition: all .3s;
+}
+
+.btn-view-more:hover
+{
+	color:#fff;
+	box-shadow:0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow:0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow:0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+}
+
+/* Inner Search Page Css */
+
+
+.search-container
+{
+	background:#e2e2e2;
+	padding:51px 0 0;
+}
+
+.search-container .search-bar-form
+{
+	margin-bottom:46px;
+}
+
+.search-container .search-bar-form .form-group .city, 
+.search-container .search-bar-form .form-group .crowd-type
+{
+	width:342px;
+}
+
+.search-container .search-bar-form .form-group .clubs, 
+.search-container .search-bar-form .form-group .lounge, 
+.search-container .search-bar-form .form-group .bars
+{
+	width:140px;
+}
+
+.search-result-container
+{
+	background:#fff;
+	padding:38px 0;
+}
+
+.search-result-container a.hotel-list-thumbnail
+{
+	display:block;
+	text-decoration:none;
+	margin-bottom:15px;
+}
+
+.search-result-container .hotel-list-thumbnail
+{
+	background:#fff;
+	border:1px solid rgb(223,223,223);
+	padding:10px;
+	border-radius:5px;
+	box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.search-result-container .hotel-list-thumbnail .ht-thumb-img
+{
+	width:100%;
+	height:240px;
+	background:url('../img/thumb-img.png') no-repeat center center;
+	border:1px solid #f3f3f3;
+	border-radius:5px;
+}
+
+.search-result-container .hotel-list-thumbnail h3
+{
+	color:#000;
+	font-size:22px;
+	font-weight:bold;
+}
+
+.search-result-container .hotel-list-thumbnail h4
+{
+	color:#000;
+	font-size:14px;
+	opacity:0.54;
+}
+
+.search-result-container .hotel-list-thumbnail p
+{
+	color:#000;
+	font-size:16px;
+}
+
+
+.club-detail-list ul 
+{
+    margin-bottom: 0;
+	margin-top:60px;
+}
+
+.club-detail-list ul li
+{
+	margin-right:20px;
+	position:relative;
+	width:100px;
+	padding-bottom:10px;
+}
+
+
+.club-detail-list ul li.active a
+{
+	opacity:1;
+}
+
+.club-detail-list ul li.active a::before
+{
+	content:'';
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100px;
+	height:6px;
+	background:#4788f2;
+}
+
+.club-detail-list ul li a
+{
+	font-size:24px;
+	text-decoration:none;
+	color:#000;
+	opacity:0.24;
+	font-weight:bold;
+}
+
+
+.search-result-container a.event-list-box
+{
+	display:block;
+	text-decoration:none;
+	margin-bottom:15px;
+}
+
+.search-result-container a.event-list-box
+{
+	background:#fff;
+	border:1px solid rgb(223,223,223);
+	padding:10px;
+	border-radius:5px;
+	box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.search-result-container .event-list-box .event-list-img
+{
+	width:100%;
+	height:240px;
+	background:url('../img/thumb-img.png') no-repeat center center;
+	border:1px solid #f3f3f3;
+	border-radius:5px;
+}
+
+
+.search-result-container .event-list-box h3
+{
+	color:#000;
+	font-size:22px;
+	font-weight:bold;
+}
+
+.search-result-container .event-list-box h4
+{
+	color:#000;
+	font-size:14px;
+	opacity:0.54;
+}
+
+
+
+/* hotel Info Css  */
+
+.info-detail-container
+{
+	padding:50px 0;
+	background:#f4f4f4;
+}
+
+.club-detail-info-listing
+{
+	font-size:18px;
+}
+
+.club-detail-info-listing .title {
+    width: 20%;
+    float: left;
+    color: #333333;
+    font-weight: bold;
+	margin-bottom:15px;
+}
+
+.club-detail-info-listing .desc {
+    width: 75%;
+    float: right;
+}
+
+.club-info-slider
+{
+	padding:20px 0;
+	background:#fff;
+	margin-top:51px;
+}
+
+.hotel-info h1 {
+    margin-top: 0;
+    font-size: 34px;
+    font-weight: bold;
+    color: #000;
+}
+
+.hotel-info p {
+    margin:0;
+    font-size: 16px;
+    color: #000;
+}
+
+#infoCarousel .carousel-inner .item
+{
+	width:100%;
+	height:440px;
+	background:url('../img/info-slider-img.png') center center;
+}
+
+#infoCarousel {
+    margin-bottom: 50px;
+}
+
+.club-info-slider
+{
+	position:relative;
+}
+
+.club-info-slider .club-detail-list {
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    width: 1170px;
+    top: 45.8%;
+    padding: 15px 0 0;
+}
+
+.club-info-slider .club-detail-list ul {
+    margin-top: 0;
+}
+
+.club-info-slider .club-detail-list ul li a {
+    color:#fff;
+	opacity:1;
+}
+
+.hotel-info-name 
+{
+	text-align:center;
+}
+
+.hotel-info-name h1
+{
+	font-size:48px;
+	text-transform:uppercase;
+	color:#000;
+	font-weight:bold;
+}
+
+.hotel-info-name p
+{
+	font-size:24px;
+	color:#000;
+	opacity:0.54;
+}
+
+.more-detail
+{
+	display:flex;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-ms-flex;
+	width:100%;
+	margin-top:40px;
+	margin-bottom:40px;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	-ms-justify-content: space-around;
+}
+
+.more-detail .detail-box
+{
+	border-width: 1px;
+	border-color: rgb(244, 244, 244);
+	border-style: solid;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.28);
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.28);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.28);
+	text-align:center;
+	height:140px;
+	width:328px;
+	align-items:center;
+	-webkit-align-items:center;
+	-moz-align-items:center;
+	-ms-align-items:center;
+	padding:20px;
+}
+.more-detail .detail-box a
+{
+	text-decoration:none;
+	font-size:24px;
+	color:#000;
+
+}
+
+
+.more-detail .detail-box ul
+{
+	margin-bottom:0;
+	margin-top: 28px;
+}
+
+.more-detail .detail-box h3
+{
+	font-size:24px;
+	color:#000;
+}
+
+/***************** Footer Css *************************/
+
+footer
+{
+	background:#3b3a3a;
+	padding:20px 0 0;
+}
+
+.fw-heading h4 {
+    font-size: 14px;
+	font-weight:bold;
+	color:#fff;
+    margin: 0 0 15px;
+}
+
+.list-style li {
+    list-style: none;
+    position: relative;
+    padding-left: 17px;
+    margin: 0 0 10px;
+    color: #000;
+    font-size: 14px;
+}
+
+.list-style li a
+{
+	color:#ddd;
+	text-decoration:none;
+	font-size:12px;
+}
+
+
+.list-style li:before {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #4788f2;
+    border-radius: 50%;
+    left: 0;
+    top: 5px;
+}
+
+.footer-bottom {
+    background: #302e2e;
+    padding: 15px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 12px;
+	color:#fff;
+}
+
+footer a {
+    color: #7a7979;
+}

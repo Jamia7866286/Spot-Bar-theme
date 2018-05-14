@@ -1,0 +1,263 @@
+@media (min-width:240px) and (max-width:767px) {
+	.search-result-container .event-list-box .event-list-img {
+		border: none;
+		height: 180px;
+	}
+	.discover-nightlife {
+		padding: 20px 0;
+	}
+	.city-box-container {
+		margin-top: 20px;
+	}
+	.search-result-container {
+		padding: 20px 0;
+	}
+	.search-result-container .hotel-list-thumbnail .ht-thumb-img {
+		border: none;
+	}
+	.club-info-slider .club-detail-list {
+		width: 100%;
+		position: relative;
+		background: #000;
+	}
+	.popular-club {
+		padding: 20px 0 102px;
+	}
+	.hotel-info-name h1 {
+		font-size: 30px;
+	}
+	#infoCarousel {
+		margin-bottom: 0;
+	}
+	.club-detail-list ul li a {
+		font-size: 20px;
+	}
+	.hotel-info-name p {
+		font-size: 18px;
+	}
+	#infoCarousel .carousel-inner .item {
+		height: 260px;
+		background-size: cover;
+	}
+	.more-detail {
+		margin-top: 20px;
+		margin-bottom: 0;
+		flex-direction: column;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+	}
+	.info-detail-container {
+		padding: 20px 0;
+	}
+	.more-detail .detail-box {
+		margin: 0 auto 10px;
+		width: 93%;
+	}
+	.more-detail .detail-box h3 {
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+	.more-detail .detail-box a {
+		font-size: 20px;
+	}
+	.hotel-info h1 {
+		font-size: 30px;
+	}
+	.hotel-info p {
+		font-size: 14px;
+		text-align: justify;
+	}
+	.club-detail-info-listing .title {
+		width: 36%;
+		clear: left;
+	}
+	.club-detail-info-listing .desc {
+		width: 59%;
+		clear: right;
+	}
+	.search-bar-form .form-group .city,
+	.search-bar-form .form-group .crowd-type {
+		width: 90% !important;
+		margin: 0 auto;
+	}
+	.search-result-container .event-list-box h3 {
+		font-size: 19px;
+	}
+	.search-container .search-bar-form .form-group .clubs,
+	.search-container .search-bar-form .form-group .lounge,
+	.search-container .search-bar-form .form-group .bars {
+		margin: 0 auto;
+		width: 90%;
+	}
+	.club-detail-list ul li {
+		margin-bottom: 10px;
+		margin-right: 10px;
+	}
+	.search-bar-form .form-group {
+		margin-right: 0;
+	}
+	.bar-banner-bg {
+		background-size: cover;
+	}
+	.heading-text h1 {
+		font-size: 28px;
+	}
+	.heading-text p {
+		font-size: 18px;
+	}
+	.search-bar-form {
+		margin-top: 20px;
+	}
+	.heading h2 {
+		font-size: 20px;
+	}
+	.heading p {
+		font-size: 16px;
+	}
+	.city-box-bg {
+		background-size: cover;
+	}
+	.get-app {
+		padding: 40px 0;
+	}
+	.btn-view-more {
+		width: 300px;
+	}
+	.search-result-container .hotel-list-thumbnail h3 {
+		font-size: 19px;
+	}
+	.search-result-container .hotel-list-thumbnail p {
+		font-size: 14px;
+	}
+}
+
+
+/*End @media (min-width:240px) and (max-width:767px)*/
+
+@media (min-width: 768px) and (max-width:991px) {
+	.search-result-container .event-list-box .event-list-img {
+		height: 200px;
+	}
+	.club-info-slider .club-detail-list {
+		width: 100%;
+		position: relative;
+	}
+	.search-result-container {
+		padding: 20px 0;
+	}
+	.hotel-info-name h1 {
+		font-size: 30px;
+	}
+	#infoCarousel {
+		margin-bottom: -53px;
+	}
+	.club-detail-list ul li a {
+		font-size: 20px;
+	}
+	.hotel-info-name p {
+		font-size: 18px;
+	}
+	#infoCarousel .carousel-inner .item {
+		height: 260px;
+		background-size: cover;
+	}
+	.more-detail {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.info-detail-container {
+		padding: 20px 0;
+	}
+	.more-detail .detail-box {
+		margin: 0 10px 0;
+	}
+	.more-detail .detail-box h3 {
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+	.more-detail .detail-box a {
+		font-size: 20px;
+	}
+	.hotel-info h1 {
+		font-size: 30px;
+	}
+	.hotel-info p {
+		text-align: justify;
+	}
+	.club-detail-info-listing .title {
+		width: 36%;
+		clear: left;
+	}
+	.club-detail-info-listing .desc {
+		width: 59%;
+		clear: right;
+	}
+	.search-bar-form .form-group .city,
+	.search-bar-form .form-group .crowd-type {
+		width: 90% !important;
+		margin: 0 auto;
+	}
+	.search-result-container .event-list-box h3 {
+		font-size: 19px;
+	}
+	.search-container .search-bar-form .form-group .clubs,
+	.search-container .search-bar-form .form-group .lounge,
+	.search-container .search-bar-form .form-group .bars {
+		margin: 0 auto;
+		width: 90%;
+	}
+	.search-result-container .hotel-list-thumbnail h3 {
+		font-size: 19px;
+	}
+	.search-result-container .hotel-list-thumbnail p {
+		font-size: 14px;
+	}
+	.search-bar-form .form-group {
+		display: block;
+		margin-bottom: 10px;
+	}
+	.bar-banner-bg {
+		background-size: cover;
+	}
+}
+
+
+/*** End @media (min-width: 768px) and (max-width:991px) ***/
+
+@media (min-width: 992px) and (max-width:1199px) {
+	.club-info-slider .club-detail-list {
+		width: 100%;
+		position: relative;
+		top: -60px;
+	}
+	.more-detail .detail-box {
+		margin: 0 10px 0;
+	}
+	#infoCarousel {
+		margin-bottom: 0;
+	}
+	.hotel-info-name h1 {
+		font-size: 40px;
+		margin-top: 0;
+	}
+	.search-container .search-bar-form .form-group .city,
+	.search-container .search-bar-form .form-group .crowd-type {
+		width: 279px;
+	}
+	.search-container .search-bar-form .form-group .clubs,
+	.search-container .search-bar-form .form-group .lounge,
+	.search-container .search-bar-form .form-group .bars {
+		width: 117px;
+	}
+}
+
+
+/*** End @media (min-width: 992px) and (max-width:1199px) ****/
+
+@media (max-width:1024px) and (min-width:770px) {
+	.search-bar-form .form-group .city,
+	.search-bar-form .form-group .crowd-type {
+		width: 250px;
+	}
+}
